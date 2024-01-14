@@ -1,0 +1,51 @@
+:root {
+  --text-color: #f5fefd;
+  --background-color: #e6a4b4;
+  --shade1: #f3d7ca;
+  --shade2: #fff8e3;
+  --shade3: #bbc4c2;
+  --shadow-color: #ccc;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar-color {
+  background-color: var(--background-color);
+}
+
+.box {
+  height: 91%;
+}
+
+.chat-box {
+  background-color: var(--shade2);
+  height: 90%;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.msg-box {
+  height: 10%;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.summary-box {
+  background-color: var(--shade2);
+  height: 100%;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main-box {
+  width: 100%;
+  height: 33rem;
+  background-color: var(--shade1);
+  border: 1px solid var(--shadow-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn {
+  height: 2rem;
+  border-radius: 0px;
+}
